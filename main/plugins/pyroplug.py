@@ -20,13 +20,13 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger("telethon").setLevel(logging.INFO)
 
 # MongoDB connection string
-MONGODB_CONNECTION_STRING = "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_CONNECTION_STRING = 
 
 # MongoDB database name and collection name
 DB_NAME = "renameauth_users"
 COLLECTION_NAME = "authorized_users_collections"
 
-OWNER_ID = 6441456023
+OWNER_ID = 
 
 # Establish a connection to MongoDB
 mongo_client = pymongo.MongoClient(MONGODB_CONNECTION_STRING)
